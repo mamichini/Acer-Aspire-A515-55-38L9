@@ -13,6 +13,7 @@ At this moment, **it's only developed for macOS Big Sur**, maybe in the future I
 - When I start the computer on the login section, the screen starts acting crazy for around 5 seconds and then turns back to normal (you can skip this strange error just by start typing the password).
 - There's no Mac with the UHD Graphics G1, so in order to make everything work I change the Device ID so that macOS thinks the computer has an Intel Iris Plus Graphics card (GPU Device ID: 0x8A5C8086), this is not an optimal option, but is the only way I found out to make the OS usable.
 - I haven't tested installing macOS on a nVME disk, so I'm not 100% sure it'll work, but I thing everything will be fine.
+- At this day I haven't fixed the sleep problem, everytime it goes sleep, when I tryes to wake up the screen stays black and you have to restart.
 
 
 I recommend if you are using a different type of CPU model, to follow the Opencore guide on fixing up the configuration plist to be built for your Mac. You may want to use my EFI as a template for everything you need. - https://dortania.github.io/OpenCore-Install-Guide/
